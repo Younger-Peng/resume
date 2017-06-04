@@ -1,0 +1,32 @@
+.test {
+  width: 300px;
+  height: 200px;
+  background: #444;
+  border-radius: 5px;
+  display: flex;
+}
+.test .left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.test .left i {
+  font-size: 70px;
+  color: #fff;
+  font-weight: bold;
+}
+.test .right {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+.test .right i {
+  font-size: 20px;
+  color: #ccc;
+}
+
+/*# sourceMappingURL=index.css.map */
