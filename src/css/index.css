@@ -1,32 +1,54 @@
-.test {
-  width: 300px;
-  height: 200px;
-  background: #444;
-  border-radius: 5px;
-  display: flex;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.test .left {
-  width: 50%;
-  height: 100%;
+
+.container > nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 60px;
+  min-height: 500px;
+  height: 100vh;
+  border-right: 1px solid #f4f4f4;
   display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+.container > nav header {
+  height: 82px;
+  background: #f1f1f1;
+}
+.container > nav main {
+  flex: 1;
+  display: flex;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
 }
-.test .left i {
-  font-size: 70px;
-  color: #fff;
-  font-weight: bold;
-}
-.test .right {
-  flex: 1;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 100%;
-}
-.test .right i {
+.container > nav main i {
+  width: 100%;
   font-size: 20px;
-  color: #ccc;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.container > nav main i:hover {
+  background: #f4f4f4;
+}
+.container > nav footer {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+}
+.container > nav footer i {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.container > nav footer i:hover {
+  background: #f4f4f4;
 }
 
 /*# sourceMappingURL=index.css.map */
