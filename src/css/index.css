@@ -4,8 +4,17 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Microsoft YaHei",Tahoma,Verdana,STHeiTi,simsun,sans-serif;
+}
+
+::selection {
+  color: #ff8b8b;
+}
+
 .container > nav {
   position: fixed;
+  background: #fff;
   top: 0;
   left: 0;
   width: 60px;
@@ -74,6 +83,42 @@
 }
 .container > nav footer a i:hover {
   color: #f9db7a;
+}
+.container > main {
+  min-width: 1000px;
+}
+.container > main > section {
+  padding-left: 150px;
+  padding-top: 150px;
+  height: 100vh;
+  min-height: 700px;
+}
+.container > main > section.about {
+  display: flex;
+  background: pink;
+}
+.container > main > section.about .left {
+  width: 400px;
+  color: #666;
+}
+.container > main > section.about .left h1 {
+  font-size: 50px;
+  font-weight: 100;
+  margin-bottom: 50px;
+}
+.container > main > section.about .right {
+  flex: 1;
+  height: 400px;
+  background: #ccc;
+}
+.container > main > section.work {
+  background: orange;
+}
+.container > main > section.skills {
+  background: pink;
+}
+.container > main > section.contact {
+  background: orange;
 }
 
 /*# sourceMappingURL=index.css.map */
