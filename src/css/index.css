@@ -18,37 +18,62 @@
 }
 .container > nav header {
   height: 82px;
+  padding-top: 10px;
   background: #f1f1f1;
+  text-align: center;
 }
-.container > nav main {
-  flex: 1;
+.container > nav header img {
+  width: 40px;
+}
+.container > nav .column {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
 }
-.container > nav main i {
+.container > nav main {
+  flex: 1;
+}
+.container > nav main button {
   width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+.container > nav main button i {
   font-size: 20px;
   margin-bottom: 20px;
   cursor: pointer;
 }
-.container > nav main i:hover {
-  background: #f4f4f4;
+.container > nav main button span {
+  font-size: 13px;
+  color: #fff;
+  display: none;
+}
+.container > nav main button:hover {
+  background: #83abbb;
+}
+.container > nav main button:hover i {
+  display: none;
+}
+.container > nav main button:hover span {
+  display: inline-block;
 }
 .container > nav footer {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
   height: 120px;
 }
-.container > nav footer i {
-  margin-bottom: 10px;
-  cursor: pointer;
+.container > nav footer a {
+  color: #888;
+  margin-bottom: 15px;
+  text-decoration: none;
 }
-.container > nav footer i:hover {
-  background: #f4f4f4;
+.container > nav footer a i {
+  font-size: 18px;
+}
+.container > nav footer a i:hover {
+  color: #f9db7a;
 }
 
 /*# sourceMappingURL=index.css.map */

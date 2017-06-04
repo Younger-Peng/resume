@@ -1,10 +1,10 @@
 
 @font-face {font-family: "iconfont";
-  src: url('iconfont.eot?t=1496541343462'); /* IE9*/
-  src: url('iconfont.eot?t=1496541343462#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('iconfont.woff?t=1496541343462') format('woff'), /* chrome, firefox */
-  url('iconfont.ttf?t=1496541343462') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('iconfont.svg?t=1496541343462#iconfont') format('svg'); /* iOS 4.1- */
+  src: url('iconfont.eot?t=1496544756805'); /* IE9*/
+  src: url('iconfont.eot?t=1496544756805#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1496544756805') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1496544756805') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1496544756805#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .iconfont {
@@ -14,6 +14,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.icon-twitter:before { content: "\e634"; }
 
 .icon-waterfall:before { content: "\e800"; }
 
@@ -33,6 +35,8 @@
 
 .icon-svg:before { content: "\e77b"; }
 
+.icon-github:before { content: "\eaf6"; }
+
 .icon-iconfonticonfontweibiaoti10153:before { content: "\e6ef"; }
 
 .icon-pxreact2:before { content: "\e601"; }
@@ -42,6 +46,8 @@
 .icon-navtodolist:before { content: "\e794"; }
 
 .icon-layout:before { content: "\e649"; }
+
+.icon-linkedin:before { content: "\e612"; }
 
 .icon-update:before { content: "\e60b"; }
 
