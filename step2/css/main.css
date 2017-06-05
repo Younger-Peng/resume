@@ -41,7 +41,6 @@
 }
 .container > main > .about .right {
   width: 60%;
-  background: black;
 }
 .container > main > .works {
   min-height: 980px;
@@ -164,7 +163,7 @@
   color: #888;
 }
 .container > main > .skills {
-  min-height: 720px;
+  min-height: 780px;
   padding: 80px 0;
   background: #fefefe;
 }
