@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+body {
+  font-family: "Microsoft YaHei",Tahoma,Verdana,STHeiTi,simsun,sans-serif;
+}
+
+::selection {
+  color: #ff8b8b;
+}
+
+.container > nav {
+  position: fixed;
+  background: #fff;
+  top: 0;
+  left: 0;
+  width: 60px;
+  min-height: 500px;
+  height: 100vh;
+  border-right: 1px solid #f4f4f4;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+.container > nav header {
+  height: 82px;
+  padding-top: 10px;
+  background: #f1f1f1;
+  text-align: center;
+}
+.container > nav header img {
+  width: 40px;
+}
+.container > nav .column {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.container > nav main {
+  flex: 1;
+}
+.container > nav main button {
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+.container > nav main button i {
+  font-size: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.container > nav main button span {
+  font-size: 13px;
+  color: #fff;
+  display: none;
+}
+.container > nav main button:hover {
+  background: #83abbb;
+}
+.container > nav main button:hover i {
+  display: none;
+}
+.container > nav main button:hover span {
+  display: inline-block;
+}
+.container > nav footer {
+  height: 120px;
+}
+.container > nav footer a {
+  color: #888;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+.container > nav footer a i {
+  font-size: 18px;
+}
+.container > nav footer a i:hover {
+  color: #f9db7a;
+}
+
+/*# sourceMappingURL=index.css.map */

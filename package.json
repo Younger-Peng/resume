@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/Younger-Peng/resume/issues"
   },
-  "homepage": "https://github.com/Younger-Peng/resume#readme"
+  "homepage": "https://github.com/Younger-Peng/resume#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "webpack": "^2.6.1"
+  }
 }

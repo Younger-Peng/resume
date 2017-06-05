@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+ul,
+ol,
+li {
+  list-style: none;
+}
+
 body {
   font-family: "Microsoft YaHei",Tahoma,Verdana,STHeiTi,simsun,sans-serif;
 }
@@ -88,9 +94,9 @@ body {
   min-width: 1000px;
 }
 .container > main > section {
-  padding-left: 150px;
-  padding-top: 150px;
+  padding: 120px 20px 0 150px;
   height: 100vh;
+  min-width: 1330px;
   min-height: 800px;
 }
 .container > main > section.about {
@@ -109,7 +115,63 @@ body {
 .container > main > section.about .right {
   flex: 1;
   height: 400px;
+}
+.container > main > section.about .right .house {
+  position: relative;
+  width: 300px;
+  margin: 50px auto;
+}
+.container > main > section.about .right .house .up {
+  position: relative;
+  width: 240px;
+  height: 80px;
+  border: 2px solid #888;
   background: #ccc;
+}
+.container > main > section.about .right .house .up .window {
+  position: absolute;
+  display: flex;
+  right: 10px;
+  top: 10px;
+  width: 100px;
+  height: 30px;
+  border: 2px solid #666;
+  background: #eee;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+.container > main > section.about .right .house .up .window li {
+  flex: 1;
+  height: 100%;
+  border-right: 1px solid #ccc;
+}
+.container > main > section.about .right .house .ground {
+  border-top: 3px solid #bbb;
+  margin-left: 5px;
+  width: 160px;
+  height: 30px;
+  background: #eee;
+  display: flex;
+  justify-content: space-between;
+}
+.container > main > section.about .right .house .ground li {
+  width: 1px;
+  height: 100%;
+  background: #999;
+}
+.container > main > section.about .right .house .ground .column {
+  position: relative;
+  left: 30px;
+  top: -4px;
+  width: 5px;
+  height: 31px;
+  background: #ccc;
+  border: 1px solid #aaa;
+}
+.container > main > section.about .right .house .line {
+  width: 300px;
+  height: 3px;
+  background: #333;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.75);
 }
 .container > main > section.work {
   background: #fefefe;
@@ -187,10 +249,24 @@ body {
   height: 620px;
   min-width: 500px;
   margin: 0 20px;
-  background: red;
 }
 .container > main > section.skills {
   background: pink;
+}
+.container > main > section.skills > ul {
+  display: flex;
+  justify-content: space-around;
+}
+.container > main > section.skills > ul li {
+  width: 250px;
+  height: 400px;
+  padding: 20px 3px 0 3px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+.container > main > section.skills > ul li h1 > i {
+  font-size: 80px;
 }
 .container > main > section.contact {
   background: orange;
