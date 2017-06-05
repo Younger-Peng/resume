@@ -15,12 +15,38 @@
 }
 .container > main > .about {
   min-height: 600px;
-  background: #ccc;
+  background: #fefefe;
+  display: flex;
+}
+.container > main > .about .left {
+  width: 40%;
+  padding: 120px 20px 0 20px;
+}
+.container > main > .about .left h1 {
+  font-size: 60px;
+  font-weight: 100;
+  color: #666;
+}
+.container > main > .about .left h4 {
+  font-size: 36px;
+  font-weight: 100;
+  font-family: monospace;
+  color: #888;
+}
+.container > main > .about .left p {
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #999;
+}
+.container > main > .about .right {
+  width: 60%;
+  background: black;
 }
 .container > main > .works {
   min-height: 980px;
   padding: 80px 0;
-  background: #f7f7f7;
+  background: #fbfbfb;
 }
 .container > main > .works .title {
   height: 205px;
@@ -120,7 +146,7 @@
 .container > main > .works > ul li .description h3 {
   font-size: 20px;
   line-height: 45px;
-  font-weight: bold;
+  font-weight: 500;
   height: 45px;
   text-align: center;
   color: #666;
@@ -140,7 +166,7 @@
 .container > main > .skills {
   min-height: 720px;
   padding: 80px 0;
-  background: #eee;
+  background: #fefefe;
 }
 .container > main > .skills .title {
   height: 205px;
@@ -178,7 +204,7 @@
   color: #777;
 }
 .container > main > .skills > ul li .icon i.icon-html2 {
-  color: #e65826;
+  color: #e88f70;
 }
 .container > main > .skills > ul li .icon i.icon-javascript {
   color: #fed93d;
@@ -284,6 +310,9 @@
   font-size: 16px;
   line-height: 24px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+.container > main > .contact > .right .address span {
+  color: #fad87c;
 }
 .container > main > .contact > .right .position {
   position: absolute;
