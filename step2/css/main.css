@@ -1,3 +1,7 @@
+::-webkit-input-placeholder {
+  color: #fff;
+}
+
 @keyframes scale {
   50% {
     transform: scale(1.2);
@@ -132,7 +136,7 @@
   opacity: 1;
 }
 .container > main > .works > ul li > .back:hover .cover h4 {
-  top: 20px;
+  top: 30px;
 }
 .container > main > .works > ul li > .back:hover .cover p {
   top: 80px;
