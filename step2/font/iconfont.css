@@ -1,10 +1,10 @@
 
 @font-face {font-family: "iconfont";
-  src: url('iconfont.eot?t=1496647141119'); /* IE9*/
-  src: url('iconfont.eot?t=1496647141119#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('iconfont.woff?t=1496647141119') format('woff'), /* chrome, firefox */
-  url('iconfont.ttf?t=1496647141119') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('iconfont.svg?t=1496647141119#iconfont') format('svg'); /* iOS 4.1- */
+  src: url('iconfont.eot?t=1496713241642'); /* IE9*/
+  src: url('iconfont.eot?t=1496713241642#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1496713241642') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1496713241642') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1496713241642#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .iconfont {
@@ -39,6 +39,8 @@
 
 .icon-github:before { content: "\eaf6"; }
 
+.icon-noun157872cc:before { content: "\e636"; }
+
 .icon-database:before { content: "\e693"; }
 
 .icon-iconfonticonfontweibiaoti10153:before { content: "\e6ef"; }
@@ -55,9 +57,13 @@
 
 .icon-linkedin:before { content: "\e612"; }
 
+.icon-icon:before { content: "\e605"; }
+
 .icon-update:before { content: "\e60b"; }
 
 .icon-create:before { content: "\e633"; }
+
+.icon-car:before { content: "\e616"; }
 
 .icon-contact:before { content: "\e604"; }
 
@@ -77,23 +83,33 @@
 
 .icon-svg1160608easyiconnet:before { content: "\e600"; }
 
+.icon-weibiaoti15:before { content: "\e614"; }
+
 .icon-iconfontjingdongcopy:before { content: "\e678"; }
 
 .icon-circle:before { content: "\e613"; }
 
 .icon-group15:before { content: "\e643"; }
 
+.icon-plane:before { content: "\e618"; }
+
 .icon-skill:before { content: "\e622"; }
 
 .icon-seo-marketing-business-responsive-adaptive-design:before { content: "\e610"; }
 
+.icon-logograph:before { content: "\e607"; }
+
 .icon-editor1:before { content: "\e611"; }
+
+.icon-car1:before { content: "\e630"; }
 
 .icon-html1:before { content: "\e719"; }
 
 .icon-sass:before { content: "\e615"; }
 
 .icon-todolist:before { content: "\e946"; }
+
+.icon-tree:before { content: "\e624"; }
 
 .icon-editor2:before { content: "\e6fd"; }
 
