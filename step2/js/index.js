@@ -9,7 +9,7 @@ var $ = require('jquery');
   })
   $('#work').on('click', function(){
     $('body').animate({
-      scrollTop: 628
+      scrollTop: 715
     }, 500)
   })
   $('#skill').on('click', function(){
